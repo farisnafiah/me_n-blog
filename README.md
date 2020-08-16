@@ -2,7 +2,8 @@
 
 This is intended for self-practise with Node+Express and MongoDB. The main aim is to be able to build Express server, with MongoDB incorporated.
 
-![alt text](https://github.com/farisnafiah/me_n-blog.git/ME_N-stack-blog.gif?raw=true)
+## Previews
+![alt text](https://github.com/farisnafiah/me_n-blog.git/ME_N-stack-blog.gif?)
 
 ## Requirements
 * Node.js
