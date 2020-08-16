@@ -1,0 +1,15 @@
+<%- include("partials/header"); -%>
+
+  <% posts.forEach((post) => { %>
+    <div class="home-post-div">
+      <h5><a href="/posts/<%=post._id%>"><%=post.title%></a></h5>
+      <p> <%= post.content.substring(0, 100) + " ..." %> </p>
+      <form action="/posts/<%= post._id %>/delete" method="post">
+        <button onClick="this.form.submit()">Delete</button>
+      </form>
+    </div>
+  <% }) %>
+
+  <button class="btn btn-primary compose-btn"><a href="/compose">Compose</a></button>
+
+<%- include("partials/footer"); -%>
