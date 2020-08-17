@@ -37,4 +37,4 @@ $ nodemon app.js
 * Compose a new blog entry.
 * Edits existing blog entry.
 * Deletes blog entry.
-* Navigatest the the page of the blog entry.
+* Navigates the blog entry page.
